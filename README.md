@@ -1,1 +1,1 @@
-# hyprland-cinf
+# hyprland-config
