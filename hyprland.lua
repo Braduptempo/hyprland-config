@@ -29,3 +29,7 @@ require("modules.input")
 require("modules.keybinds")
 require("modules.rules")
 require("modules.layout")
+
+-- Quickshell: glass blur and layer rules, kept in the quickshell repo.
+-- pcall: does nothing if the file isn't there (e.g. quickshell not installed).
+pcall(dofile, os.getenv("HOME") .. "/.config/quickshell/hyprland/quickshell.lua")

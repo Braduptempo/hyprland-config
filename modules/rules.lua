@@ -47,3 +47,16 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+hl.window_rule({
+    name  = "float-emulator",
+    match = { class = "^(emulator)$" },
+    float = true,
+})
+
+hl.window_rule({
+    name  = "emulator-window-settings",
+    match = { class = "^(emulator)$" },
+    float = true,
+    size  = "500 900",
+})
